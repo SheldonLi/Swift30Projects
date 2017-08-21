@@ -8,6 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate {
+    
+    //  fileprivate 这个元素的访问权限为文件内私有
+    //  private 离开了这个类或者结构体的作用域外面就无法访问
   fileprivate let mainStopwatch: Stopwatch = Stopwatch()
   fileprivate let lapStopwatch: Stopwatch = Stopwatch()
   fileprivate var isPlay: Bool = false
